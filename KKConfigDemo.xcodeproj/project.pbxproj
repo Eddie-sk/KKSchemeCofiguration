@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1E33FAA1DDDA5260017807D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E33FA91DDDA5260017807D /* main.m */; };
+		B1E33FAD1DDDA5260017807D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E33FAC1DDDA5260017807D /* AppDelegate.m */; };
+		B1E33FB01DDDA5260017807D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E33FAF1DDDA5260017807D /* ViewController.m */; };
+		B1E33FB31DDDA5260017807D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E33FB11DDDA5260017807D /* Main.storyboard */; };
+		B1E33FB51DDDA5260017807D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E33FB41DDDA5260017807D /* Assets.xcassets */; };
+		B1E33FB81DDDA5260017807D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E33FB61DDDA5260017807D /* LaunchScreen.storyboard */; };
+		B1E33FD21DDDB2AC0017807D /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1E33FCD1DDDB2AC0017807D /* Configuration.plist */; };
+		B1E33FD41DDDB2AC0017807D /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1E33FD11DDDB2AC0017807D /* Configuration.plist */; };
+		B1E33FDD1DDDD4650017807D /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1E33FDC1DDDD4650017807D /* Configuration.plist */; };
+		B1E340231DDEF76A0017807D /* kook_configTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E340221DDEF76A0017807D /* kook_configTests.m */; };
+		B1E340321DDEF7710017807D /* kook_configUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E340311DDEF7710017807D /* kook_configUITests.m */; };
+		B1E3403C1DDEF8F30017807D /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E3403B1DDEF8F30017807D /* testViewController.m */; };
+		B1E3403D1DDEF8F30017807D /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E3403B1DDEF8F30017807D /* testViewController.m */; };
+		B1E3403E1DDEF8F30017807D /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E3403B1DDEF8F30017807D /* testViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1E340251DDEF76A0017807D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E33F9D1DDDA5260017807D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1E33FA41DDDA5260017807D;
+			remoteInfo = KKConfigDemo;
+		};
+		B1E340341DDEF7710017807D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E33F9D1DDDA5260017807D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1E33FA41DDDA5260017807D;
+			remoteInfo = KKConfigDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1E33FA51DDDA5260017807D /* KKConfigDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKConfigDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E33FA91DDDA5260017807D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1E33FAB1DDDA5260017807D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1E33FAC1DDDA5260017807D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1E33FAE1DDDA5260017807D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1E33FAF1DDDA5260017807D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1E33FB21DDDA5260017807D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1E33FB41DDDA5260017807D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1E33FB71DDDA5260017807D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1E33FB91DDDA5260017807D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E33FCD1DDDB2AC0017807D /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		B1E33FD11DDDB2AC0017807D /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		B1E33FDC1DDDD4650017807D /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		B1E340201DDEF76A0017807D /* kook.configTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kook.configTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E340221DDEF76A0017807D /* kook_configTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kook_configTests.m; sourceTree = "<group>"; };
+		B1E340241DDEF76A0017807D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E3402F1DDEF7710017807D /* kook.configUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kook.configUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E340311DDEF7710017807D /* kook_configUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kook_configUITests.m; sourceTree = "<group>"; };
+		B1E340331DDEF7710017807D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E3403A1DDEF8F30017807D /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		B1E3403B1DDEF8F30017807D /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1E33FA21DDDA5260017807D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E3401D1DDEF76A0017807D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E3402C1DDEF7710017807D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1E33F9C1DDDA5260017807D = {
+			isa = PBXGroup;
+			children = (
+				B1E33FA71DDDA5260017807D /* KKConfigDemo */,
+				B1E340211DDEF76A0017807D /* kook.configTests */,
+				B1E340301DDEF7710017807D /* kook.configUITests */,
+				B1E33FA61DDDA5260017807D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1E33FA61DDDA5260017807D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1E33FA51DDDA5260017807D /* KKConfigDemo.app */,
+				B1E340201DDEF76A0017807D /* kook.configTests.xctest */,
+				B1E3402F1DDEF7710017807D /* kook.configUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E33FA71DDDA5260017807D /* KKConfigDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B1E33FAB1DDDA5260017807D /* AppDelegate.h */,
+				B1E33FAC1DDDA5260017807D /* AppDelegate.m */,
+				B1E33FAE1DDDA5260017807D /* ViewController.h */,
+				B1E33FAF1DDDA5260017807D /* ViewController.m */,
+				B1E3403A1DDEF8F30017807D /* testViewController.h */,
+				B1E3403B1DDEF8F30017807D /* testViewController.m */,
+				B1E33FB11DDDA5260017807D /* Main.storyboard */,
+				B1E33FB41DDDA5260017807D /* Assets.xcassets */,
+				B1E33FB61DDDA5260017807D /* LaunchScreen.storyboard */,
+				B1E33FB91DDDA5260017807D /* Info.plist */,
+				B1E33FA81DDDA5260017807D /* Supporting Files */,
+			);
+			path = KKConfigDemo;
+			sourceTree = "<group>";
+		};
+		B1E33FA81DDDA5260017807D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1E33FCB1DDDB2AC0017807D /* Config */,
+				B1E33FA91DDDA5260017807D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1E33FCB1DDDB2AC0017807D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B1E33FDB1DDDD4650017807D /* TestDebug */,
+				B1E33FCC1DDDB2AC0017807D /* Debug */,
+				B1E33FD01DDDB2AC0017807D /* Release */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		B1E33FCC1DDDB2AC0017807D /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				B1E33FCD1DDDB2AC0017807D /* Configuration.plist */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		B1E33FD01DDDB2AC0017807D /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				B1E33FD11DDDB2AC0017807D /* Configuration.plist */,
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		B1E33FDB1DDDD4650017807D /* TestDebug */ = {
+			isa = PBXGroup;
+			children = (
+				B1E33FDC1DDDD4650017807D /* Configuration.plist */,
+			);
+			path = TestDebug;
+			sourceTree = "<group>";
+		};
+		B1E340211DDEF76A0017807D /* kook.configTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1E340221DDEF76A0017807D /* kook_configTests.m */,
+				B1E340241DDEF76A0017807D /* Info.plist */,
+			);
+			path = kook.configTests;
+			sourceTree = "<group>";
+		};
+		B1E340301DDEF7710017807D /* kook.configUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1E340311DDEF7710017807D /* kook_configUITests.m */,
+				B1E340331DDEF7710017807D /* Info.plist */,
+			);
+			path = kook.configUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1E33FA41DDDA5260017807D /* KKConfigDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E33FBC1DDDA5260017807D /* Build configuration list for PBXNativeTarget "KKConfigDemo" */;
+			buildPhases = (
+				B1E33FA11DDDA5260017807D /* Sources */,
+				B1E33FA21DDDA5260017807D /* Frameworks */,
+				B1E33FA31DDDA5260017807D /* Resources */,
+				B1E33FDA1DDDD42D0017807D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKConfigDemo;
+			productName = KKConfigDemo;
+			productReference = B1E33FA51DDDA5260017807D /* KKConfigDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1E3401F1DDEF76A0017807D /* kook.configTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E340271DDEF76A0017807D /* Build configuration list for PBXNativeTarget "kook.configTests" */;
+			buildPhases = (
+				B1E3401C1DDEF76A0017807D /* Sources */,
+				B1E3401D1DDEF76A0017807D /* Frameworks */,
+				B1E3401E1DDEF76A0017807D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E340261DDEF76A0017807D /* PBXTargetDependency */,
+			);
+			name = kook.configTests;
+			productName = kook.configTests;
+			productReference = B1E340201DDEF76A0017807D /* kook.configTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1E3402E1DDEF7710017807D /* kook.configUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E340361DDEF7710017807D /* Build configuration list for PBXNativeTarget "kook.configUITests" */;
+			buildPhases = (
+				B1E3402B1DDEF7710017807D /* Sources */,
+				B1E3402C1DDEF7710017807D /* Frameworks */,
+				B1E3402D1DDEF7710017807D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E340351DDEF7710017807D /* PBXTargetDependency */,
+			);
+			name = kook.configUITests;
+			productName = kook.configUITests;
+			productReference = B1E3402F1DDEF7710017807D /* kook.configUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1E33F9D1DDDA5260017807D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Kook;
+				TargetAttributes = {
+					B1E33FA41DDDA5260017807D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B1E3401F1DDEF76A0017807D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1E33FA41DDDA5260017807D;
+					};
+					B1E3402E1DDEF7710017807D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1E33FA41DDDA5260017807D;
+					};
+				};
+			};
+			buildConfigurationList = B1E33FA01DDDA5260017807D /* Build configuration list for PBXProject "KKConfigDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1E33F9C1DDDA5260017807D;
+			productRefGroup = B1E33FA61DDDA5260017807D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1E33FA41DDDA5260017807D /* KKConfigDemo */,
+				B1E3401F1DDEF76A0017807D /* kook.configTests */,
+				B1E3402E1DDEF7710017807D /* kook.configUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1E33FA31DDDA5260017807D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E33FB81DDDA5260017807D /* LaunchScreen.storyboard in Resources */,
+				B1E33FDD1DDDD4650017807D /* Configuration.plist in Resources */,
+				B1E33FD21DDDB2AC0017807D /* Configuration.plist in Resources */,
+				B1E33FD41DDDB2AC0017807D /* Configuration.plist in Resources */,
+				B1E33FB51DDDA5260017807D /* Assets.xcassets in Resources */,
+				B1E33FB31DDDA5260017807D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E3401E1DDEF76A0017807D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E3402D1DDEF7710017807D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1E33FDA1DDDD42D0017807D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"CONFIGURATION -> ${CONFIGURATION}\"\nRESOURCE_PATH=${SRCROOT}/${PRODUCT_NAME}/config/${CONFIGURATION}\n\nBUILD_APP_DIR=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\n\necho \"Copying all files under ${RESOURCE_PATH} to ${BUILD_APP_DIR}\"\ncp -v \"${RESOURCE_PATH}/\"* \"${BUILD_APP_DIR}/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1E33FA11DDDA5260017807D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E33FB01DDDA5260017807D /* ViewController.m in Sources */,
+				B1E33FAD1DDDA5260017807D /* AppDelegate.m in Sources */,
+				B1E3403C1DDEF8F30017807D /* testViewController.m in Sources */,
+				B1E33FAA1DDDA5260017807D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E3401C1DDEF76A0017807D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E3403D1DDEF8F30017807D /* testViewController.m in Sources */,
+				B1E340231DDEF76A0017807D /* kook_configTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E3402B1DDEF7710017807D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E3403E1DDEF8F30017807D /* testViewController.m in Sources */,
+				B1E340321DDEF7710017807D /* kook_configUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1E340261DDEF76A0017807D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1E33FA41DDDA5260017807D /* KKConfigDemo */;
+			targetProxy = B1E340251DDEF76A0017807D /* PBXContainerItemProxy */;
+		};
+		B1E340351DDEF7710017807D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1E33FA41DDDA5260017807D /* KKConfigDemo */;
+			targetProxy = B1E340341DDEF7710017807D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1E33FB11DDDA5260017807D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E33FB21DDDA5260017807D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1E33FB61DDDA5260017807D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E33FB71DDDA5260017807D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1E33FBA1DDDA5260017807D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CustomAppBundleld = com.kook.debug;
+				CustomProductName = kook.debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KKConfigDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1E33FBB1DDDA5260017807D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CustomAppBundleld = com.kook;
+				CustomProductName = kook;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KKConfigDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1E33FBD1DDDA5260017807D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CustomAppBundleld = com.kook.debug;
+				CustomProductName = kook.degub;
+				INFOPLIST_FILE = KKConfigDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kook.Debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1E33FBE1DDDA5260017807D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CustomAppBundleld = com.kook;
+				CustomProductName = kook;
+				"CustomProductName[arch=*]" = config;
+				INFOPLIST_FILE = KKConfigDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kook.Debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B1E33FBF1DDDA5570017807D /* TestDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CustomAppBundleld = com.kook.test.debug;
+				CustomProductName = kook.test.debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TEST=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KKConfigDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = TestDebug;
+		};
+		B1E33FC01DDDA5570017807D /* TestDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CustomAppBundleld = com.kook.debugTest;
+				CustomProductName = kook.config;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = KKConfigDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kook.Debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = TestDebug;
+		};
+		B1E340281DDEF76A0017807D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kook.configTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kook.kook-configTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKConfigDemo.app/KKConfigDemo";
+			};
+			name = Debug;
+		};
+		B1E340291DDEF76A0017807D /* TestDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kook.configTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kook.kook-configTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKConfigDemo.app/KKConfigDemo";
+			};
+			name = TestDebug;
+		};
+		B1E3402A1DDEF76A0017807D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kook.configTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kook.kook-configTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKConfigDemo.app/KKConfigDemo";
+			};
+			name = Release;
+		};
+		B1E340371DDEF7710017807D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kook.configUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kook.kook-configUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KKConfigDemo;
+			};
+			name = Debug;
+		};
+		B1E340381DDEF7710017807D /* TestDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kook.configUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kook.kook-configUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KKConfigDemo;
+			};
+			name = TestDebug;
+		};
+		B1E340391DDEF7710017807D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kook.configUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kook.kook-configUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KKConfigDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1E33FA01DDDA5260017807D /* Build configuration list for PBXProject "KKConfigDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E33FBA1DDDA5260017807D /* Debug */,
+				B1E33FBF1DDDA5570017807D /* TestDebug */,
+				B1E33FBB1DDDA5260017807D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = TestDebug;
+		};
+		B1E33FBC1DDDA5260017807D /* Build configuration list for PBXNativeTarget "KKConfigDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E33FBD1DDDA5260017807D /* Debug */,
+				B1E33FC01DDDA5570017807D /* TestDebug */,
+				B1E33FBE1DDDA5260017807D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = TestDebug;
+		};
+		B1E340271DDEF76A0017807D /* Build configuration list for PBXNativeTarget "kook.configTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E340281DDEF76A0017807D /* Debug */,
+				B1E340291DDEF76A0017807D /* TestDebug */,
+				B1E3402A1DDEF76A0017807D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = TestDebug;
+		};
+		B1E340361DDEF7710017807D /* Build configuration list for PBXNativeTarget "kook.configUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E340371DDEF7710017807D /* Debug */,
+				B1E340381DDEF7710017807D /* TestDebug */,
+				B1E340391DDEF7710017807D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = TestDebug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1E33F9D1DDDA5260017807D /* Project object */;
+}
